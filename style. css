@@ -1,0 +1,275 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+ 
+ body {
+     background-color: white;
+     color: black;
+     width: 100%;
+ }
+ 
+.header {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: #2b2b2b;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-bar {
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 40px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-bar a:hover {
+    font-weight: bold;
+}
+
+.main-content {
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-section {
+text-align: center;
+margin-bottom: 10px;
+width: 100%;
+}
+
+.hero-section h2 {
+font-size: 24px;
+font-weight: normal;
+margin-bottom: 25px
+}
+
+.hero-section a{
+background-color: #c4c4c4;
+border: none;
+
+padding: 10px 25px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.hero-section a:hover{
+background-color: darkgrey;
+box-shadow: 0 0 10px black;
+}
+
+.section-activities {
+width: 100%;
+text-align: center;
+margin-bottom: 60px;
+}
+
+.section-activities h2 {
+font-size: 28px;
+font-weight: normal;
+line-height: 1.3;
+margin-bottom: 30px;
+}
+
+.cards-grid {
+display:flex;
+justify-content: space-between;
+gap: 30px;
+width: 100%;
+}
+
+.card{
+    flex: 1;
+    text-align: left;
+    padding: 5px;
+}
+.card-img-wrapper {
+width: 100%;
+height: 200px;
+background-color: #d9d9d9;
+margin-bottom: 15px;
+overflow: hidden;
+}
+
+.card-img-wrapper img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.card h3 {
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+.card p {
+font-size: 20px;
+line-height: 1.3;
+color: black;
+}
+
+.section-trades {
+width: 100%;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.section-trades h2 {
+font-size: 28px;
+font-weight: normal;
+margin-bottom: 20px;
+}
+
+.trades-banner {
+width: 100%;
+height: 300px;
+background-color: #d9d9d9;
+margin-bottom: 20px;
+overflow: hidden;
+}
+
+.trades-banner img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.trades-desc {
+text-align: center;
+font-size: 23px;
+line-height: 1.4;
+}
+
+.section-sea-events {
+width: 100%;
+margin-top: 10px;
+}
+
+.sea-event-container {
+display: flex;
+gap: 30px;
+align-items: center;
+width: 100%;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.sea-events-img {
+width: 300px;
+height: 300px;
+background-color: #00a2ff;
+flex-shrink: 0;
+overflow: hidden;
+}
+
+.sea-events-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.sea-events-text {
+flex-grow: 1;
+padding-top: 10px;
+font-size: 20px;
+}
+
+.social-icon {
+color: #ffffff;
+font-size: 28px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #333333;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+transform: translateY(-5px);
+}
+
+.social-icon.instagram:hover {
+     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+     color: #fff;
+   }
+
+
+   .social-icon.tiktok:hover {
+     background-color: #000000;
+     color: #00f2fe;
+     box-shadow: -2px 2px 0px #ff0050, 2px -2px 0px #00f2fe;
+   }
+   .social-icon.x-twitter:hover {
+     background-color: #000000;
+     color: #ffffff;
+   }
+
+
+   .social-icon.youtube:hover {
+     background-color: #FF0000;
+     color: #ffffff;
+   }
+
+
+   .copyright {
+     font-size: 14px;
+     color: #888888;
+     margin-top: 10px;
+   }
+
+.sea-events-text p {
+font-size: 15px;
+line-height: 1.4;
+}
+
+footer {
+background-color: #1a1a1a;
+color: #ffffff;
+padding: 30px 20px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+.footer-container {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+}
+
+.social-links {
+display: flex;
+gap: 20px;
+}
